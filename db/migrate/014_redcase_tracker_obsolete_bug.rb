@@ -1,5 +1,5 @@
 
-class RedcaseTrackerObsoleteBug < ActiveRecord::Migration
+class RedcaseTrackerObsoleteBug < ActiveRecord::Migration[5.1]
 
   def self.up
     obsoleted_state = IssueStatus.find_by_name('Obsoleted')
