@@ -1,5 +1,5 @@
 
-class RedcaseProjectEs < ActiveRecord::Migration
+class RedcaseProjectEs < ActiveRecord::Migration[5.1]
 
   def self.up
     add_column :execution_suites, :project_id, :integer
