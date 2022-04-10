@@ -1,5 +1,5 @@
 
-class RedcaseDefaultTracker < ActiveRecord::Migration
+class RedcaseDefaultTracker < ActiveRecord::Migration[5.1]
 
   def self.up
     new_status = IssueStatus.where(
