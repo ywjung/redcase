@@ -1,5 +1,5 @@
 
-class RedcaseExecComment < ActiveRecord::Migration
+class RedcaseExecComment < ActiveRecord::Migration[5.1]
 
   def self.up
     change_table :execution_journals do |t|
