@@ -1,5 +1,5 @@
 
-class RedcaseExecList < ActiveRecord::Migration
+class RedcaseExecList < ActiveRecord::Migration[5.1]
 
   def self.up
     remove_index :execution_suite_project, :column => [:project_id]
